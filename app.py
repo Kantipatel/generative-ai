@@ -3,7 +3,7 @@ import csv
 
 def app_setup():
     cwd = os.getcwd()
-    file_name = f"{cwd}/data/contacts.csv"
+    file_name = f"{cwd}/data/persons.csv"
 
     with open(file_name, newline='') as f:
         reader = csv.reader(f)
