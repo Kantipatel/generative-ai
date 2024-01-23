@@ -1,9 +1,14 @@
 import os
+import csv
 
 def app_setup():
     cwd = os.getcwd()
-    print(f"{cwd}/data/contacts.csv")
-    # read csv data
+    file_name = f"{cwd}/data/contacts.csv"
+
+    with open(file_name, newline='') as f:
+        reader = csv.reader(f)
+        for row in reader:
+            print(row)
     
 
 def main():
