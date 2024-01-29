@@ -21,7 +21,7 @@ def app_setup():
     # read and set all environment variables
     os.environ["OPENAI_API_KEY"] = configData["openAI"]["apiKey"]
     os.environ["OLLAMA_HOST"] = "127.0.0.1" # we are running the ollama server locally
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    # openai_api_key = os.getenv("OPENAI_API_KEY")
     
     
 def run_chatbot():
