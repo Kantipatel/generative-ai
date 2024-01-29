@@ -1,6 +1,6 @@
 import os
 import csv
-
+# sample startup to check python dev environment and setup
 def app_setup():
     
     cwd = os.getcwd()

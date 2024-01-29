@@ -1,0 +1,6 @@
+Name,Vendor,ParamSize,Size,Description
+llama2-13b,Meta,13B,7.4GB,Open source LLM
+llama2-7b-Chat,Meta,7B,,Open source LLM
+llama2-3b,Meta,3B,,Open source LLM
+ChatGPT 3.5 Turbo,OpenAI,175B,,GPT-3 Turbo
+Mistral,Mistral.ai,7B,4.1GB,Open source LLM
