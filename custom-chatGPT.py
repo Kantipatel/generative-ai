@@ -5,6 +5,9 @@ After python environment setup, ensure that these packages are installed:
 pip install langchain langchain-openai tiktoken # for openai model access
 pip install faiss-cpu # for local vector DB
 pip install beautifulsoup4 # for web scraping
+
+To use local vector DB, ensure that Ollama server is running locally
+we will use llama2 as embedding model and FAISS as vector DB from Meta
 '''
 import os
 import os
