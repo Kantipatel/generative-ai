@@ -1,0 +1,14 @@
+{
+  "langchain": [
+    { "name": "some-name-here" },
+    { "name": "some-name-here" },
+    { "name": "some-name-here" }
+  ],
+  "openAI": {
+    "apiKey": "add-api-key-value-here",
+    "serviceUrl": "some-url-here",
+    "name": "some-name-here"
+  },
+  "othersettings": [],
+  "moresetings": []
+}
